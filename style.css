@@ -1,0 +1,147 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* fonts end */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:rgb(43,50,88,1);
+    --primary-lite:rgba(43, 50, 88, 0.811);
+}
+
+.heading img{
+    width: 15%;
+}
+.heading{
+    background-color: var(--primary);
+    padding: 15px 30px;
+    color: white;
+    font-size: larger;
+    font-family: "Bree Serif", serif;
+    text-align: center;
+}
+.gpaBox{
+    width: 60vw;
+    margin: auto;
+    background-color: var(--primary-lite);
+    box-shadow: 10px 10px 5px rgb(43,50,88,1);
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 12px;
+}
+.gpaHead{
+    justify-content: center;
+    font-family: "Bree Serif", serif;
+    margin-top: 22px;
+}
+.gpaHead div{
+    padding-right: 10px;
+    font-size: 22px;
+    margin-top: 22px;
+    color: white;
+}
+.gpaHead input{
+    margin-top: 22px;
+    border-radius: 15px;
+    background-color: rgb(43,50,88,1) ;
+    color: white;
+    padding-left: 10px;
+    border: none;
+
+}
+.gpaHead .submit{
+    margin-left: 22px ;
+    width: 6rem;
+    background-color: rgb(43,50,88,1) ;
+    color: white;
+    font-family: "Bree Serif", serif;
+    margin-top: 22px;
+    font-size: 22px;
+}
+.gpaHead .submit:hover{
+    background-color: rgba(43, 50, 88, 0.768) ;
+
+}
+
+.box {
+    margin: 2rem ;
+    /* padding: 6px 7px; */
+    color: white;
+    font-size: x-large;
+}
+.box .course{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 2rem;
+}
+.box .course .name{
+    text-align: center;
+}
+.course{
+    margin-bottom: 12px;
+}
+#submit{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    width:50%;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.result-box{
+    background-color: rgb(108 117 125);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    height: 7vh;
+    font-weight: 500;
+    font-size: x-large;
+    font-family: "Bree Serif", serif;
+    color: rgb(255, 255, 255);
+}
+
+.flex{
+    display: flex;
+}
+.footer{
+    /* position:relative; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer .foot-links{
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 10px 15px;
+}
+.footer .text{
+    background-color: black;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    margin:0;
+}
+.invisible{
+    display: none;
+}
+ul{
+    list-style:none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* ul,a,li{
+    list-style:none;
+    text-decoration: none;
+    color: white;
+} */
