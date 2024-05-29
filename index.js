@@ -12,7 +12,6 @@ enter.addEventListener("keydown",(e)=>{
     console.log(e);
     if(e.key=='Enter'){
         addDiv();
-        document.querySelector(".f-submit").classList.remove("d-none");
     }
 })
 
