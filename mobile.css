@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading img{
+    width: 15%;
+}
+
+.heading{
+    padding: 10px 20px;
+}
+.heading p{
+    font-size: 12px;
+}
+
+.gpaHead div{
+    font-size: 12px;
+    margin-left: 12px;
+}
+.gpaHead input{
+    width: 6rem;
+}
+.gpaHead .submit{
+    margin-left: 11px ;
+    padding: 2px 4px;
+    width: auto;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.box {
+    margin: 1.5rem ;
+    /* padding: 6px 7px; */
+    font-size:12px;
+}
+
+.box .course{
+    display: grid;
+    grid-template-columns: 2fr 5fr 5fr;
+    gap: 1.5rem;
+}
+
+#submit{
+    font-weight: 500;
+    font-size: 12px;
+}
+.result-box{
+    font-weight: 500;
+    font-size: 12px;
+    width: 25vw;
+}

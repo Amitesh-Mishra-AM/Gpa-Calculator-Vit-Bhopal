@@ -53,11 +53,11 @@
     color: white;
     padding-left: 10px;
     border: none;
-
 }
 .gpaHead .submit{
+    padding: 5px 10px;
     margin-left: 22px ;
-    width: 6rem;
+    width: auto;
     background-color: rgb(43,50,88,1) ;
     color: white;
     font-family: "Bree Serif", serif;
@@ -68,7 +68,9 @@
     background-color: rgba(43, 50, 88, 0.768) ;
 
 }
-
+.options{
+    margin: 2rem ;
+}
 .box {
     margin: 2rem ;
     /* padding: 6px 7px; */
@@ -90,19 +92,19 @@
     margin: auto;
     display: block;
     justify-content: center;
-    width:50%;
+    width:25vw;
     font-weight: 500;
     font-size: x-large;
 }
 
 .result-box{
+    margin: 1rem auto;
     background-color: rgb(108 117 125);
-    width: 90%;
+    /* width: 90vw; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
-    height: 7vh;
+    height: 4vh;
     font-weight: 500;
     font-size: x-large;
     font-family: "Bree Serif", serif;
