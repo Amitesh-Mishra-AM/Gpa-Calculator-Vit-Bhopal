@@ -6,6 +6,16 @@ function handleClick2() {
     console.log("submit button clicked");
 }
 
+// Taking input for enter key pressed
+var enter=document.querySelector(".input");
+enter.addEventListener("keydown",(e)=>{
+    console.log(e);
+    if(e.key=='Enter'){
+        addDiv();
+        document.querySelector(".f-submit").classList.remove("d-none");
+    }
+})
+
 // to add number of divs
 var input = document.querySelector(".number");
 let add = document.querySelector(".box");
