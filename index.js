@@ -1,29 +1,33 @@
-// for making the answer visible adding click event in submit button 
-var submit = document.querySelector("#submit");
-submit.addEventListener("click", handleClick);
-function handleClick() {
+function handleClick1(){
+    document.querySelector(".f-submit").classList.remove("invisible");
+}
+function handleClick2() {
     document.querySelector(".result-box").classList.remove("invisible");
     console.log("submit button clicked");
 }
+
 // to add number of divs
 var input = document.querySelector(".number");
 let add = document.querySelector(".box");
 let Submit = document.querySelector(".submit");
 var container = document.querySelector(".box");
+// var outerContauiner=document.querySelector(".options");
 function addDiv() {
     let num = parseInt(input.value);
     console.log("Submit clicked");
-    if(num<0){
-        alert("Value cannot be negative !!!");
+    if(num<=0){
+        alert("Value cannot be negative or zero !!!");
     }
-    if (!isNaN(num)) {
+    if (num>0) {
         console.log("user entered:", num);
+        handleClick1();
     }
     else {
-        console.error("Invalid Input")
+        console.error("Invalid Input");
     }
      // Clear existing content of the box
      container.innerHTML = '';
+    //  outerContauiner.innerHTML='';
     // add.innerHTML="hello";
     for (let i = 1; i <=num; i++) {
         let div=document.createElement("div");
@@ -59,6 +63,7 @@ let num = parseInt(input.value);
 // for calculating the gpa
 document.querySelector(".result-box").innerHTML="your gpa here";
 function calculateGPA() {
+    handleClick2();
     let numerator = 0;
     let denominator = 0;
     let num = parseInt(input.value);
