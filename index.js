@@ -1,8 +1,8 @@
 function handleClick1(){
-    document.querySelector(".f-submit").classList.remove("invisible");
+    document.querySelector(".f-submit").classList.remove("d-none");
 }
 function handleClick2() {
-    document.querySelector(".result-box").classList.remove("invisible");
+    document.querySelector(".result-box").classList.remove("d-none");
     console.log("submit button clicked");
 }
 
